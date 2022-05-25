@@ -13,22 +13,21 @@ control point could be selected (orange) and moved to a different location to se
 curve is shaped by the control points.
 
 ## Hermite Spline
-- Left Image:
+- Top Image:
     - It can be seen that the hermite spline is calculated with respect to 4 control points, there are 4 separate splines being calculated in this image (can see the start and 
     end where the lines intersect with the control points).
     - You can see in the output below, the left is the original hermite spline where one control point is orange (which is the control point that will be moved). 
-- Right Image:
+- Bottom Image:
     - The control point was moved and it can be seen that the spline changes with respect to 
     4 control points.
 
-<img src="./images/hermite_init.png" style="height:300px;"> 
-<img src="./images/hermite_change.png" style="height:300px;padding-left:30px">
+<img src="./images/hermite_init.png" style="height:250px;"> 
+<img src="./images/hermite_change.png" style="height:250px;padding-left:30px">
 
 
 ## Catmull Splines
 
-<img src="./images/catmull_init.png" style="height:300px;"> 
-<img src="./images/catmull_change.png" style="height:300px;padding-left:30px">
+<img src="./images/catmull_init.png" style="height:300px;"><img src="./images/catmull_change.png" style="height:300px;padding-left:30px">
 
 ## B-Spline
 
