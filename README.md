@@ -21,18 +21,16 @@ curve is shaped by the control points.
     - The control point was moved and it can be seen that the spline changes with respect to 
     4 control points.
 
-<img src="./images/hermite_init.png" style="height:250px;"> 
-<img src="./images/hermite_change.png" style="height:250px;padding-left:30px">
+<img src="./images/hermite_init.png" style="height:250px;">  <img src="./images/hermite_change.png" style="height:250px;padding-left:30px">
 
 
 ## Catmull Splines
 
-<img src="./images/catmull_init.png" style="height:300px;"><img src="./images/catmull_change.png" style="height:300px;padding-left:30px">
+<img src="./images/catmull_init.png" style="height:300px;">  <img src="./images/catmull_change.png" style="height:300px;padding-left:30px">
 
 ## B-Spline
 
-<img src="./images/bspline_init.png" style="height:300px;"> 
-<img src="./images/bspline_change.png" style="height:300px;padding-left:30px">
+<img src="./images/bspline_init.png" style="height:300px;">  <img src="./images/bspline_change.png" style="height:300px;padding-left:30px">
 
 
 # Bicubic Patch
@@ -48,14 +46,12 @@ curve is shaped).
 - Teapot data obtained from John Braico, original source it was adapted was from:
     - Newell's Utah teapot (with bottom): https://github.com/rm-hull/newell-teapot
 
-<img src="./images/teapot.png" style="height:300px;"> 
-<img src="./images/teapot_ctrl_pts.png" style="height:300px;padding-left:30px">
+<img src="./images/teapot.png" style="height:300px;">  <img src="./images/teapot_ctrl_pts.png" style="height:300px;padding-left:30px">
 
 ## Vase Output
 - The vase I implemented uses 6 patches of 16 control points
 
-<img src="./images/vase.png" style="height:300px;"> 
-<img src="./images/vase_ctrl_pts.png" style="height:300px;padding-left:30px">
+<img src="./images/vase.png" style="height:300px;">  <img src="./images/vase_ctrl_pts.png" style="height:300px;padding-left:30px">
 
 # Sources
 John Braico - Computer Graphics Professor
