@@ -13,35 +13,6 @@ control point could be selected (orange) and moved to a different location to se
 curve is shaped by the control points.
 
 ## Hermite Spline
-- The main equation implemented in my code was:
-    - a parametric variable matrix 't'
-    - the coefficient matrix
-    - A column matrix containing:
-        - The endpoint matrices
-        - Tangent vectors 
-
-    
-    $$\begin{bmatrix}
-    t^3 & t^2 & t & 1 
-
-    \end{bmatrix}
-    \begin{bmatrix}
-
-    2 & -2 & 1 & 1 \\
-    -3 & 3 & -2 & -1 \\
-    0 & 0 & 1 & 0 \\
-    1 & 0 & 0 & 0 \\ 
-
-    \end{bmatrix}
-    \begin{bmatrix}
-    p_0 \\
-    p_1 \\
-    v_0 \\
-    v_1 
-
-    \end{bmatrix}
-    $$
-    
 - Left Image:
     - It can be seen that the hermite spline is calculated with respect to 4 control points, there are 4 separate splines being calculated in this image (can see the start and 
     end where the lines intersect with the control points).
