@@ -5,18 +5,18 @@ patches.
 
 # Splines
 - For the first assignment we were tasked with implementing:
-    - Hermite Spline
+    - Bezier Spline
     - Catmull-ROM Spline
     - B-Spline
 - The same 12 control points were used to easily distinguish the different curves. Each 
 control point could be selected (orange) and moved to a different location to see how the 
 curve is shaped by the control points.
 
-## Hermite Spline
+## Bezier Spline
 - Left Image:
-    - It can be seen that the hermite spline is calculated with respect to 4 control points, there are 4 separate splines being calculated in this image (can see the start and 
+    - It can be seen that the bezier spline is calculated with respect to 4 control points, there are 4 separate splines being calculated in this image (can see the start and 
     end where the lines intersect with the control points).
-    - You can see in the output below, the left is the original hermite spline where one control point is orange (which is the control point that will be moved). 
+    - You can see in the output below, the left is the original bezier spline where one control point is orange (which is the control point that will be moved). 
 - Right Image:
     - The control point was moved and it can be seen that the spline changes with respect to 
     4 control points.
@@ -40,6 +40,8 @@ output the infamous Newell Teapot, as well as an object of our own creation.
 seen comparing the right and left images (right shows the control points from which the 
 curve is shaped).
 - Rotated in the x, y and z axes using mouse
+- This assignment gave me a keen intuition into how complex shapes are modelled in 
+animated movies such as those from Pixar.
 
 ## Teapot Output
 - The teapot is implemented using 32 patches of 16 control points
