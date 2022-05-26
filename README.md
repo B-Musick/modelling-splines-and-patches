@@ -25,10 +25,14 @@ curve is shaped by the control points.
 
 
 ## Catmull Splines
+- It can easily be seen that Catmull splines are fully interpreted (meaning the curve passes through all control points).
+- The main individuating factor of this spline calculation is that a tangent line from control points 2,4 and one between 1,3 is used in the matrix calculation. And 4 control points are needed to calculate the curve between control points 1,2. This 12 calculations were needed to interperet my curve, as compared to the 4 calculations for the Bezier curve.
 
 <img src="./images/catmull_init.png" style="height:300px;">  <img src="./images/catmull_change.png" style="height:300px;padding-left:30px">
 
 ## B-Spline
+- B-splines are interpreted much in the same way catmull-rom curves are, where 4 control points only determine the curve between the first 2 control points in the group, thus 12 calculations need to occur to get the whole curve.
+- The main specialty of B-Splines is that it uses weights, so if a control point is interpreted multiple times, this control point has more weight on the curve and will thus cause more change in the shape of the curve.
 
 <img src="./images/bspline_init.png" style="height:300px;">  <img src="./images/bspline_change.png" style="height:300px;padding-left:30px">
 
